@@ -1,8 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ArmControl : MonoBehaviour {
+///////////////////////////////////////////////////////////////////////////
+//   Class:      ArmControl
+//   Purpose:    Controls how the arm moves on the Player.
+//
+//   Notes: Attach onto the arm portion of a player.
+//   Contributors: RSF
+///////////////////////////////////////////////////////////////////////////
 
+public class ArmControl : MonoBehaviour {
+    
+    //rotation of the arm.
     public float rotZ;
     private bool facingRight = true;
 

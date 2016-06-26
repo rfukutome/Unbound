@@ -1,6 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+///////////////////////////////////////////////////////////////////////////
+//   Class:      Player
+//   Purpose:    This class holds all the properties of the Player. The Player
+//   script handles many player states. This includes jumping, animations, 
+//   wall climbing interactions.
+//
+//   Notes: Attach onto the player
+//   Contributors: RSF
+///////////////////////////////////////////////////////////////////////////
 
 [RequireComponent(typeof(PlayerMovement))]
 public class Player : MonoBehaviour {

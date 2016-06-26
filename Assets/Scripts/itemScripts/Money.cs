@@ -1,6 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+///////////////////////////////////////////////////////////////////////////
+//   Class:      Money
+//   Purpose:    This class is used to handle the value of money or URC of the
+//   character.
+//   
+//   Notes: Attach onto money
+//   Contributors: RSF
+///////////////////////////////////////////////////////////////////////////
+
 public class Money : MonoBehaviour {
     public int value;
 

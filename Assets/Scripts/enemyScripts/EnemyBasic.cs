@@ -3,11 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 
-/// <summary>
-/// This script will be used for the basics of enemies. In Unbound, the basics of enemies are health, attackDamage, defense, drops, and typing.
-/// </summary>
-
-
+/////////////////////////////////////////////////////////////////////////
+//   Class:      EnemyBasic
+//   Purpose:    This script will be used for the basics of enemies. 
+//   The basics of enemies are health, attackDamage, defense, drops, 
+//   and typing.
+//   
+//   Notes: Attach onto a any enemy. 
+//   Contributors: RSF
+/////////////////////////////////////////////////////////////////////////
 public class EnemyBasic : MonoBehaviour {
     
     public int currentHealth;
@@ -17,6 +21,7 @@ public class EnemyBasic : MonoBehaviour {
     public DamagePopup damageText;
     public string type;
 
+    //item drops
     public List<Transform> item100 = new List<Transform>();
     public List<Transform> item50 = new List<Transform>();
 
@@ -78,10 +83,6 @@ public class EnemyBasic : MonoBehaviour {
         Destroy(gameObject);
     }
 
-    //===============================================================================
-    //Function: UpdateHealthBar()
-    //Purpose: Updates both UI health bar and floating health bar
-    //===============================================================================
     void UpdateHealthBar()
     {
         healthBar.material.color = Color.Lerp(Color.green, Color.red, 1 - currentHealth * 0.01f);

@@ -1,6 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+///////////////////////////////////////////////////////////////////////////
+//   Class:      RaycastController
+//   Purpose:    This class handles all of the player collisions with the
+//   world, which ties in with how the player moves within the world.
+//
+//   Notes: not attached on anything. PlayerMovement inherits from this class.
+//   Contributors: RSF
+///////////////////////////////////////////////////////////////////////////
+
 [RequireComponent(typeof(BoxCollider2D))]
 public class RaycastController : MonoBehaviour {
     public const float skinWidth = .015f;

@@ -1,6 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+///////////////////////////////////////////////////////////////////////////
+//   Class:      WeaponBasics
+//   Purpose:    This class holds all the properties of a Weapon.
+//
+//   Notes: Attach onto all weapon prefabs.
+//   Contributors: RSF
+///////////////////////////////////////////////////////////////////////////
+
 public class WeaponBasics : MonoBehaviour {
 
     public float fireRate = 0;

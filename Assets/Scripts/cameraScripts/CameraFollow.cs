@@ -1,10 +1,25 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/////////////////////////////////////////////////////////////////////////
+//   Class:      CameraFollow
+//   Purpose:    To keep the focus of the camera on the target, within 
+//   a given area. Smoothing can be specifed, along with the focus area.
+//   
+//   Notes: Attach onto a camera, and drag a reference to the player. 
+//   Contributors: RSF
+/////////////////////////////////////////////////////////////////////////    
+
+
 public class CameraFollow : MonoBehaviour {
     public PlayerMovement target;
+
+    //Offset variables for the Camerafollow box area
     public float verticalOffset;
     public float lookAheadDstX;
+
+    //How quickly the camera will follow the player once the
+    //player leaves the camera region.
     public float lookSmoothTimeX;
     public float verticalSmoothTime;
     public Vector2 focusAreaSize;

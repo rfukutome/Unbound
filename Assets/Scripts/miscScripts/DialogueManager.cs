@@ -2,6 +2,17 @@
 using System.Collections;
 using UnityEngine.UI;
 
+///////////////////////////////////////////////////////////////////////////
+//   Class:      DialogueManager
+//   Purpose:    This event handles the dialogue events in the game. Each
+//   NPC in the game will have a dialogueHolder script that holds their 
+//   dialogue. those scripts will reference this one to bring up a dialogue
+//   box.
+//   
+//   Notes: Attach onto the dialogue manager in the scene.
+//   Contributors: RSF
+///////////////////////////////////////////////////////////////////////////
+
 public class DialogueManager : MonoBehaviour {
     public GameObject dialogueBox;
     public Text dialogueText;
@@ -36,6 +47,7 @@ public class DialogueManager : MonoBehaviour {
             typeSpeed = 0.05f;
         }
     }
+
     public bool ShowBox(string argDialogue, string argName)
     {
         if (isTyping)

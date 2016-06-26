@@ -1,6 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+///////////////////////////////////////////////////////////////////////////
+//   Class:      AttractToPlayer
+//   Purpose:    Items that drop from enemies or chests, will be attracted
+//   to the player. The player will automatically pick up anything this 
+//   script is attached to.
+//   
+//   Notes: Attach onto item drops. 
+//   Contributors: RSF
+///////////////////////////////////////////////////////////////////////////
+
 public class AttractToPlayer : MonoBehaviour
 {
     public float smooth = .5f;

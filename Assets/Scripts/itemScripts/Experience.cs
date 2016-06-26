@@ -1,6 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+///////////////////////////////////////////////////////////////////////////
+//   Class:      Experience
+//   Purpose:    This class is used to handle the value of experience 
+//   dropped by enemies.
+//   
+//   Notes: Attach onto experience.
+//   Contributors: RSF
+///////////////////////////////////////////////////////////////////////////
+
 public class Experience : MonoBehaviour {
     public float value;
 

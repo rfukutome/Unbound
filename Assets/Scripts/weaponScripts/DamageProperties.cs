@@ -1,6 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+///////////////////////////////////////////////////////////////////////////
+//   Class:      DamageProperties
+//   Purpose:    This class holds all the properties of a bullet.
+//
+//   Notes: Attach onto bullet prefab.
+//   Contributors: RSF
+///////////////////////////////////////////////////////////////////////////
+
 public class DamageProperties : MonoBehaviour {
     [HideInInspector]
     public int damage;

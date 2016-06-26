@@ -1,6 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+///////////////////////////////////////////////////////////////////////////
+//   Class:      PlayerMovement
+//   Purpose:    This class handles all of the players movement in world-
+//   space. This class inherits from the RayCastController, which handles
+//   all the player movements using Raycasts. This class acts as a higher
+//   level controller, that takes player inputs for movement. It then 
+//   pulls from the raycastcontroller class. Collisions are all handled in
+//   this class. 
+//
+//   Notes: Attach onto the player
+//   Contributors: RSF
+///////////////////////////////////////////////////////////////////////////
+
 public class PlayerMovement : RaycastController {
 
     public int testfaceDir;

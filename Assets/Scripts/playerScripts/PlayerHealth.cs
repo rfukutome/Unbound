@@ -2,6 +2,16 @@
 using System.Collections;
 using UnityEngine.UI;
 
+///////////////////////////////////////////////////////////////////////////
+//   Class:      PlayerHealth
+//   Purpose:    This class handles the logic for the player's health and 
+//   shield. How much damage, invulnerability time, along with displaying
+//   health and shield to the UI.
+//
+//   Notes: Attach onto the player
+//   Contributors: RSF
+///////////////////////////////////////////////////////////////////////////
+
 public class PlayerHealth : MonoBehaviour
 {
     private int maxHealth = 100;

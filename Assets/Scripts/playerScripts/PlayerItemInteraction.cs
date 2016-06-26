@@ -1,6 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+
+///////////////////////////////////////////////////////////////////////////
+//   Class:      PlayerItemInteraction
+//   Purpose:    This class handles all of the interactions that the players
+//   have with items. This includes money, guns, experience, etc.
+//
+//   Notes: Attach onto the player
+//   Contributors: RSF
+///////////////////////////////////////////////////////////////////////////
+
 public class PlayerItemInteraction : MonoBehaviour {
 
     //EXPERIENCE

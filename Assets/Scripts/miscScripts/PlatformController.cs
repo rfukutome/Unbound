@@ -2,6 +2,17 @@
 using System.Collections;
 using System.Collections.Generic;
 
+///////////////////////////////////////////////////////////////////////////
+//   Class:      PlatformController
+//   Purpose:    This script is to keep objects on a moving platform, and 
+//   move them at the same speed as the platform. Script also handles
+//   waypoints for the platform to cycle through. Note that the games 
+//   collisions are handled through raycasts. 
+//
+//   Notes: Attach onto any object in the game. Idealy the GameManager.
+//   Contributors: RSF
+///////////////////////////////////////////////////////////////////////////
+
 public class PlatformController : RaycastController {
     public LayerMask passengerMask;
 
